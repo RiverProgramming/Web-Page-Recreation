@@ -1,0 +1,520 @@
+body {
+    font-family: robotoregular;
+}
+
+.main {
+    padding-top: 4.69%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+.product-img {
+    width: 32.1%;
+    float: left;
+}
+
+.info-main {
+    width: 40.59%;
+    padding-left: 1.67%;
+    padding-right: 1.67%;
+    float: inline-start;
+    height: 37.77777vw;
+}
+
+.shipready {
+    background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+    border-radius: 2px 0 0 2px;
+    width: 17.11%;
+    height: 100%;
+}
+
+.dispstock {
+    float: inline-start;
+    height: 100%;
+    background-color: #FFF0E6;
+}
+
+#sinfo1 > a {
+    display: inline-block;
+    font-size: 0.83333vw;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 16px;
+    padding-top: 4.89%;
+}
+
+#sinfo2 > a {
+    font-size: 0.83333vw;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 16px;
+    padding-top: 4.89%;
+}
+
+#sinfo3 > a {
+    font-size: 0.83333vw;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 16px;
+    padding-top: 4.89%;
+}
+
+.statuses {
+    width: 100%;
+    height: 3.676%;
+}
+
+.oktick {
+    padding-left: 10.67%; 
+    padding-right: 8%;
+    width: 0.83333vw;
+    vertical-align:bottom;
+}
+
+#stars {
+    display: inline-block;
+    width: 4.86111vw;
+}
+
+.star {
+    float: inline-start;
+    width: 0.97222vw;
+    padding-top: 0.1%;
+}
+
+#Prod-desc {
+    padding-top: 0.5555vw;
+    font-size: 1.11111vw;
+    line-height: 1.666666vw;
+}
+
+#ratings {
+    padding-top: 1.17%;
+}
+
+#rated {
+    display: inline-block;
+    color: #FF6600;
+    font-size: 0.833333vw;
+    line-height: 1.11111vw;
+    text-align: left;
+    vertical-align: top;
+}
+
+#reviews {
+    display: inline-block;
+    color: #999999;
+    font-size: 0.833333vw;
+    line-height: 1.11111vw;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 0.28vw;
+}
+
+#buyers {
+    display: inline-block;
+    color: #333333;
+    font-size: 0.833333vw;
+    line-height: 1.11111vw;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 1.66666vw;
+}
+
+#pricing {
+    display: block;
+    margin-top: 0.833333vw;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+    width: 100%;
+    height: 4.4444vw;
+}
+
+#disc-price {
+    font-family: robotobold;
+    display: inline-block;
+    color: #FF6600;
+    font-size: 1.11111vw;
+    line-height: 1.6666vw;
+    text-align: left;
+    padding-top:0.8333333vw;
+}
+
+#original-price {
+    text-decoration: line-through;
+    color: #999999;
+    font-size: 0.97222vw;
+    line-height: 1.1111vw;
+    text-align: left;
+}
+
+#option {
+    color: #999999;
+    font-size: 0.972222vw;
+    line-height: 1.111111vw;
+}
+
+#option-count {
+    color: #333333;
+    font-size: 0.97222vw;
+    line-height: 1.11111vw;
+    padding-left: 0.76333vw;
+
+}
+
+#expo-info {
+    background-color: #FFF0E6;
+    width: 100%;
+    height: 2.77777vw;
+    margin-top: 0.83333vw;
+    display: block;
+}
+
+.banner-item {
+    padding: 0.8333vw 1.6666vw;
+    color: #FF6600;
+    font-size: 0.97222vw;
+    line-height: 1.1111vw;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.banner-item > li {
+    color: #FF6600;
+    font-size: 0.97222vw;
+    line-height: 1.1111vw;
+}
+
+#countdown {
+    display: block;
+    margin-top: 1.6666vw;
+}
+
+#disc-perc {
+    color: #FF6600;
+    font-size: 0.97222vw;
+    line-height: 1.11111vw;
+    text-align: left;
+}
+
+#disc-desc {
+    color: #999999;
+}
+
+#time {
+    padding-left: 1.6666vw;
+    color: #999999;
+}
+
+#options {
+    display: block;
+    height: 10vw;
+    padding-top: 1.6666vw;
+    padding-bottom: 1.6666vw;
+    width: 100%;
+}
+
+.optionlist {
+    display: block;
+    height: 33.3333%;
+    padding-top: 0.415555vw;
+    padding-bottom: 0.415555vw;
+    
+}
+
+.optionlist > a {
+    display: inline-block;
+    font-size: 0.97222vw;
+    margin-top: 0.83333vw;
+}
+
+
+#item1, #item2, #item3 {
+    display: inline-flex;
+    height: 90%;
+    width: 30.42%;
+    white-space: nowrap;
+    float: inline-end;
+}
+
+input {
+    width:95%;
+    height: 95%;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    border: none;
+}
+
+.plusminus {
+    display: inline-block;
+    border: 1px solid #E6E7EB;
+    width: 33%;
+    height: 100%;
+
+}
+
+.quantity {
+    display: inline-block;
+    border: 1px solid #E6E7EB;
+    width: 50%;
+    height: 100%;
+}
+
+#plus {
+    border: 1px solid #FF6600;
+}
+
+#plus > div.minus {
+    background-color: #FF6600;
+}
+
+.minus {
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 47.5%;
+    height: 5%;
+    background-color: #E6E7EB;
+}
+
+.plus {
+    position: inherit;
+    width: 5%;
+    margin-top: -20%;
+    margin-left: 47.5%;
+    height: 35%;
+    background-color: #FF6600;
+}
+
+#assurance {
+    margin-top: 1.6666vw;
+}
+
+#payments , #links {
+    margin-top: 0.8333vw;
+}
+
+#payments > a, #links > a {
+    color: #999999; 
+    font-size: 0.8333vw; 
+    line-height: 0.972222vw;
+    
+}
+
+#shipinfo {
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+    height: 17.77777vw;
+    width: 20.25vw;
+    float: right;
+}
+
+#init {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0.972222vw;
+    height: 2.2222vw;
+    width: 9.1666vw;
+    margin-top: 1.94444vw;
+    margin-left: 1.6666vw;
+    text-overflow: ellipsis;
+    line-height: 1.11111vw;
+    white-space: nowrap;
+}
+
+#shipcost {
+    display: inline-block;
+    position: absolute;
+    margin-left: 2vw;
+    margin-top: 1.6666vw;
+    font-family: robotobold;
+    font-size: 1.11111vw;
+    line-height: 1.66666vw;
+}
+
+#lead {
+    margin-top: 0.8333vw;
+    margin-left: 1.6666vw;
+    display: block;
+}
+
+#shiptime {
+    margin-top: 0.8333vw;
+    margin-left: 1.6666vw;
+    display: block;
+}
+
+#lead > img, #shiptime > img {
+    margin-left: 0.83333vw;
+}
+
+#login {
+    background-color: #FF6600;
+    border-radius: 20px;
+    width: 84.313%;
+    height: 2.77777vw;
+    font-size:0.972222vw;
+    margin-left: 7.8435%;
+    margin-top: 1.6666vw;
+    color: white;
+}
+
+#contact {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #FF6600;
+    width: 84.313%;
+    height: 2.77777vw;
+    font-size:0.972222vw;
+    margin-left: 7.8435%;
+    margin-top: 0.8333vw;
+    color: #FF6600;
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('assets/fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('assets/fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('assets/fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('assets/fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('assets/fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('assets/fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('assets/fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('assets/fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('assets/fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('assets/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('assets/fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('assets/fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
+         url('assets/fonts/roboto-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+			  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="main">
+            <img id="img1" class="product-img">
+            <div class="info-main">
+                <div class="statuses">
+                    <div id="sinfo1" style="display: none; float: left" class="shipready">
+                        <a>Ready to Ship</a>
+                    </div>
+                    <div id="sinfo2" style="display: none; min-width: 15.25%" class="dispstock">
+                        <a><img src="assets/icons8-ok.png" class="oktick">In Stock</a>
+                    </div>
+                    <div id="sinfo3" style="display: none; min-width: 21.25%" class="dispstock">
+                        <a><img src="assets/icons8-ok.png" class="oktick">Fast Dispatch</a>
+                    </div>
+                </div>
+                <div id="Prod-desc">
+
+                </div>
+                <div id="ratings">
+                    <div id="stars">
+                        <!--Stars loaded from JS here-->
+                    </div>
+                    <a id="rated">
+                        <!--Rating loaded from JS here-->
+                    </a>
+                    <a id="reviews">
+                        <!--Reviews loaded from JS here-->
+                    </a>
+                    <a id="buyers">
+                        <!--Buyer count loaded from JS here-->
+                    </a>
+                </div>
+                <div id="pricing">
+                    <a id="disc-price"></a>
+                    <a id="option">/ Option</a>
+                    <a id="option-count">2 Options<a style="color: #999999"> (Min. Order)</a></a>
+                    <a id="original-price"></a>
+                </div>
+
+                <div id="expo-info">
+                    <img src="assets/Logo.png" style="width: 5.27777vw">
+                    <ul class="banner-item">
+                        <li style="float: left">Free Shipping (Up to $40)</li>
+                        <li style="float:inline-start; margin-left: 1.66666vw">On time Deliver Guaranteed</li>
+                    </ul>
+                    <img src="assets/icons8-forward.png" style="float: right; width: 0.55555vw; margin-top:0.902777vw; margin-right: 1.1111vw">
+                </div>
+
+                <div id="countdown">
+                    <a id="disc-perc"></a>
+                    <a id="disc-desc">Discount ends in</a>
+                    <a id="time"><img src="assets/icons8-clock.png" style="padding-right: 0.8333vw"></a>
+                </div>
+
+                <div id="options">
+                    <div class="optionlist">
+                        <a style="width: 21.292%">Options:</a>
+                        <a id="label1" style="width:33%"></a>
+                        <a id="price1" style="width:3.888vw"></a>
+                        <div id="item1">
+                            <div id="minus" class="plusminus" onclick="changeQuant(this, 'i1')">
+                                <div class="minus"></div>
+                            </div>
+                            <div class="quantity">
+                                <input type="number" id="in1" value="0">
+                            </div>
+                            <div id="plus" class="plusminus" onclick="changeQuant(this, 'i1')">
+                                <div class="minus"></div>
+                                <div class="plus"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="optionlist">
+                        <a style="width: 21.292%">&nbsp;</a>
+                        <a id="label2" style="width:33%"></a>
+                        <a id="price2" style="width:3.888vw"></a>
+                        <div id="item2">
+                            <div id="minus" class="plusminus" onclick="changeQuant(this, 'i2')">
+                                <div class="minus"></div>
+                            </div>
+                            <div class="quantity">
+                                <input type="number" id="in2" value="0">
+                            </div>
+                            <div id="plus" class="plusminus" onclick="changeQuant(this, 'i2')">
+                                <div class="minus"></div>
+                                <div class="plus"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="optionlist">
+                        <a style="width: 21.292%">&nbsp;</a>
+                        <a id="label3" style="width:33%"></a>
+                        <a id="price3" style="width:3.888vw"></a>
+                        <div id="item3">
+                            <div id="minus" class="plusminus" onclick="changeQuant(this, 'i3')">
+                                <div class="minus"></div>
+                            </div>
+                            <div class="quantity">
+                                <input type="number" id="in3" value="0">
+                            </div>
+                            <div id="plus" class="plusminus" onclick="changeQuant(this, 'i3')">
+                                <div class="minus"></div>
+                                <div class="plus"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="assurance">
+                    <img src="assets/Icon.svg">
+                    <a style="font-family: robotobold; font-size: 0.97222vw">Trade Assurance</a>
+                    <a style="font-size: 0.833333vw; color:#999999">protects your Alibaba.com orders</a>
+                </div>
+                <div id="payments">
+                    <a>Payments:
+                        <img src="assets/icons8-visa.svg">
+                        <img src="assets/icons8-mastercard.svg">
+                        <img src="assets/icons8-apple_pay.svg">
+                    </a>
+                </div>
+                <div id="links">
+                    <a href="http://Alibaba.com">Alibaba.com Logistics</a>
+                    <a style="padding-left: 1.66666vw">Inspection Solutions</a>
+                </div>
+            </div>
+            <div id="shipinfo">
+                <a id="init"></a>
+                <div id="shipcost">
+                </div>
+                <a id="lead">
+
+                </a>
+                <a id="shiptime"></a>
+                <button id="login">Login to Purchase</button>
+                <button id="contact"><img src="assets/icons8-envelope.png" style="padding-right: 0.8333vw">Contact the Supplier</button>
+            </div>
+            
+
+        </div>
+    </body>
+</html>
