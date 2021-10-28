@@ -3,7 +3,7 @@ This is my assessment for Vaimo
 
 Inside this folder you will find an assets.zip file. Please unzip this file and place the contents in the root folder
 
-____Compiling and Running_____
+____Compiling and Running____
 Simply open main.html and the content of this webpage will be shown
 
 _____Architecture_____
