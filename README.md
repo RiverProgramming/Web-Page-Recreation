@@ -1,5 +1,4 @@
-# VaimoApplicationJade
-This is my assessment for Vaimo
+# Recreation of Design Given
 
 Inside this folder you will find an assets.zip file. Please unzip this file and place the contents in the root folder
 
