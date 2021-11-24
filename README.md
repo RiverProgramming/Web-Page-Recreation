@@ -15,3 +15,10 @@ HTML: Simple, basic, necessary to display and organize information
 CSS: Alters the HTML coding to display as required
 Javascript: A necessary tool to load the API and determine the information in the backend
 JQuery: Makes using javascript easier and a lot more shorthand.
+
+_____Important Notes_____
+This application was created in a singular day. What it demonstrates is:
+- API Use
+- Utilizing JavaScript to affect what is rendered on the application
+- CSS to change how the different items looks
+- HTML with ID elements for easy use with javascript
